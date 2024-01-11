@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(43, 30, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.totalfollowers{
+    font-size: 10px;
+}
+.topbar{
+    height: 100px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+.toptxt > div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+}
+.buttonT{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+}
+.btntxt{
+    font-size: 10px;
+    color: white;
+}
+.button{
+    width: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.fbcard > p{
+    color: white;
+    font-size: 12px;
+}
+.fbcard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.fb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: rgb(11, 1, 20);
+    padding: 15px;
+    width: 120px;
+}
+.row2 > div{
+    border-radius: 10px;
+}
+.followersnum{
+    color: white;
+    font-size: 43px;
+    font-weight: bold;
+}
+.followerslabel{
+    font-size: 12px;
+    color: grey;
+}
+.fbnumlabel{
+    display: flex;
+    flex-direction: column;
+}
+.fbtoday{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.fbtodayfollowers > p{
+    color: green;
+    font-size: 12px;
+    
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 50vw;
+    justify-content: space-between;
+}
+.overview{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: white;
+}
+.fbpageviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(11, 1, 20);
+    width: 170px;
+    height: 100px;
+    padding: 15px;
+
+}
+.pageviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.pageviews > p{
+    color: white;
+
+}
+.fbviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.fbpercviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fbpercviews > p{
+    color: green;
+}
+.rowoverview > div{
+    border-radius: 10px;
+}
+.rowoverview{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+.num{
+    font-size: 30px;
+}
+.v{
+    font-size: 12px;
+}
+.lastrows{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.fbpercviews{
+    height: 3px;
+    color: green;
+}
